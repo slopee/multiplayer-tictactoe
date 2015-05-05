@@ -17,3 +17,5 @@ var game = new Phaser.Game(
         }
     }
 );
+
+var socket = io.connect();

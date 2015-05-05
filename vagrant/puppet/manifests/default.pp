@@ -48,6 +48,12 @@ class express_install {
     }
 }
 
+class socket_install {
+    exec { 'install-socket': 
+        command => 'npm install -g socket.io'
+    }
+}
+
 include system-update
 include system-upgrade
 include js_packages
@@ -55,3 +61,4 @@ include tools_packages
 include bower_install
 include grunt_install
 include express_install
+include socket_install
