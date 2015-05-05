@@ -1,3 +1,4 @@
+var ioSocket = io.connect();
 var game = new Phaser.Game(
     800, 
     800, 
@@ -17,5 +18,3 @@ var game = new Phaser.Game(
         }
     }
 );
-
-var socket = io.connect();

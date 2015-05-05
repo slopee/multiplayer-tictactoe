@@ -12,6 +12,8 @@ var BoardManager = function() {
   // Public methods
   // Returns true if the player was able to make the move. 
   this.makeMove = function(selectedPositionIndex) {
+      ioSocket.emit('makeMove', selectedPositionIndex);
+      /*
       var position = board.getPosition(selectedPositionIndex);
       
       var canMakeMove = position.isEmpty();
@@ -24,6 +26,7 @@ var BoardManager = function() {
       
       board.debugPrint();
       return canMakeMove;
+      */
   };
     
   this.getBoard = function() {

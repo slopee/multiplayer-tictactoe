@@ -18,8 +18,12 @@ server.listen(8080, function () {
 // Listen to socket on connection
 var io = socketIo.listen(server);
 io.on('connection', function(socket){
-  console.log('a user connected');
+  console.log('New user connected');
+    
   socket.on('disconnect', function(){
-    console.log('user disconnected');
+    console.log('User disconnected');
   });
+    
+  var socketMediator = require('./game/socketMediator.js').SocketMediator(socket);
+    
 });
