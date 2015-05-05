@@ -1,6 +1,8 @@
 var express = require('express');
 var app = express();
 
+app.use(express.static(__dirname + '/../frontend'));
+
 app.get('/', function (req, res) {
     console.log("request received!!");
   res.send('Hello World!');

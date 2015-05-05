@@ -1,0 +1,36 @@
+{"frames": {
+
+"board.png":
+{
+	"frame": {"x":2,"y":2,"w":800,"h":800},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":800},
+	"sourceSize": {"w":800,"h":800}
+},
+"circle.png":
+{
+	"frame": {"x":2,"y":804,"w":183,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":50,"w":183,"h":148},
+	"sourceSize": {"w":254,"h":254}
+},
+"cross.png":
+{
+	"frame": {"x":187,"y":804,"w":223,"h":146},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":50,"w":223,"h":146},
+	"sourceSize": {"w":254,"h":254}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boardSprite.png",
+	"format": "RGBA8888",
+	"size": {"w":804,"h":954},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:aa7d93bcbded9ae706fb60ccb83ece29:fc2942b5ad8532d673468fbcaba0eaa6:78250607657a0479f90781997890d908$"
+}
+}
